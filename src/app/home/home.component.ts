@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       let count = 0;
       setInterval(() => {
         observer.next(count);
-        if (count == 5) {
+        if (count == 2) {
           observer.complete();
         }
         if (count > 3) {
